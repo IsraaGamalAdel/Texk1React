@@ -1,0 +1,16 @@
+.bgcolor
+{
+    height: 5px;
+    width: 100px
+}
+.layer:hover{
+    opacity: 1;
+}
+.layer{
+    background-color: #1abc9cc0;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 1s ease-in-out ;
+    overflow: hidden;
+    border-radius: 7px;
+}
